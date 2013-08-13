@@ -1,0 +1,148 @@
+html{
+	overflow-y:scroll;
+}
+
+body{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+}
+
+a:visited{
+	color:#0000FF;
+}
+
+#logo{
+	height:150px;
+	width:190px;
+	background-image:url("../logo_color.png");
+}
+
+#current{
+	color:#551a8b;
+}
+
+#logobutton{
+	width:190px;
+	margin:20px auto;
+}
+
+.divider{
+	width:60px;
+	height:2px;
+	background-color:white;
+	margin:0 auto;
+}
+
+#content{
+	clear:both;
+	text-align:center;
+	width:80%;
+	margin:0 auto;
+}
+
+#pialphaphi{
+	font-size:75px;
+	font-family:Times;
+}
+
+.lowercase{
+	font-size:65px;
+}
+
+#navbar{
+	font-family:'Merriweather Sans', sans-serif;
+	margin:0 auto 50px;
+	background-color:rgba(255,255,255,0.7);
+	text-align:center;
+	font-size:16px;
+	height:50px;
+	width:920px;
+	padding:0 20px 0 20px;
+	border-radius:3px;
+	line-height:30px;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 rgba(0,0,0,.5);
+	box-shadow: 0 0 5px rgba(0,0,0,.5)
+}
+
+.navbuttons{
+	text-decoration: none;
+	text-align:center;
+	padding:10px 18px 5px 18px;
+	display:inline-block;
+	float:left;
+	font-weight:bold;
+	transition:color .2s ease-in;
+	-webkit-transition:color .2s ease-in;  
+	-moz-transition:color .2s ease-in;  
+	-o-transition:color .2s ease-in; 
+	-webkit-transition:color .2s ease-in;
+}
+
+.navbuttons:hover{
+	color:black;
+}
+
+#fallrush{
+	color:white;
+}
+
+
+
+#slideshow {
+    position:relative;
+	z-index:-1;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+#slideshow img {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+			
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+		
+@media screen and (max-width: 1024px){
+	img.bg {
+		left: 50%;
+		margin-left: -512px; 
+	}
+}
+		
+#content {
+	width: 920px;
+	margin: 0 auto;
+	background: rgba(11,11,11, 0.8);
+	padding: 20px;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 rgba(0,0,0,.5);
+	box-shadow: 0 0 5px rgba(0,0,0,.5)
+}
+
+
